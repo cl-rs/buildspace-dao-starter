@@ -25,7 +25,7 @@ const App = () => {
   // which means they've connected their wallet to our site!
   return (
     <div className="landing">
-      <h1>👀 wallet connected, now what!</h1>
+      <h1>"👀 wallet connected, now what!"</h1>
     </div>);
 };
 
