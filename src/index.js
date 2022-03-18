@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App.jsx";
+import App from "./App";
 
 //Import ThirdWeb
 import {ThirdwebWeb3Provider} from '@3rdweb/hooks';
@@ -28,9 +28,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 // Render the App component to the DOM
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+//
